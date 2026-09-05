@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "date": "2026-08-23",
+    "title": "Feedback attachments, faster icons, and report fixes",
+    "changes": [
+      { "type": "new", "text": "The feedback form can now attach screenshots." },
+      { "type": "fix", "text": "Fixed the player who recorded the replay being missing from their own report." },
+      { "type": "fix", "text": "Fixed a gap where some MVP kills weren't credited to any player." },
+      { "type": "fix", "text": "Fixed the participant table being unreachable on phones (Deaths column and expand button were cut off)." },
+      { "type": "improved", "text": "Skill/item icons are now cached locally for faster repeat loads." },
+      { "type": "improved", "text": ".rrf uploads are now validated before parsing." },
+      { "type": "improved", "text": "Removed the 27MB upload cap — long replay sessions that parse fine were being rejected." }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026-08-24",
+    "title": "RateMyServer links, named shares, and MVP/heal fixes",
+    "changes": [
+      { "type": "new", "text": "Item, skill, and monster names now link out to ratemyserver.net." },
+      { "type": "new", "text": "Share links can be named before copying." },
+      { "type": "new", "text": "Added per-skill heal totals to the player breakdown." },
+      { "type": "fix", "text": "Fixed ground-skill damage/heals (Ground Drift, Sanctuary, traps) not being credited to the caster." },
+      { "type": "fix", "text": "Fixed MVP kills not splitting correctly when one species has both a boss and ordinary clones." },
+      { "type": "fix", "text": "Fixed a 1px row-border misalignment in tables." },
+      { "type": "improved", "text": "The feedback form now automatically links your current report instead of requiring a manual attachment." }
+    ]
+  },
+  {
+    "id": 3,
+    "date": "2026-08-27",
+    "title": "Item hover, class icons, and MVP fixes",
+    "changes": [
+      { "type": "new", "text": "Hover (or tap) an item in \"Total Items Used\" to see which players used it and how many times." },
+      { "type": "new", "text": "Added each player's class icon next to their name across the participant table, charts, and item hover list." },
+      { "type": "fix", "text": "Fixed MVP kill counts being undercounted for several bosses." },
+      { "type": "fix", "text": "Fixed a homunculus/mercenary occasionally showing up as if it were a player." }
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-09-04",
+    "title": "New home at ro-report.onl, themed scrollbars, and MVP kill breakdowns",
+    "changes": [
+      { "type": "new", "text": "The site now lives at ro-report.onl. Old links (lthao209.github.io/ro-battle-report) redirect here automatically." },
+      { "type": "new", "text": "The MVP Count chart's tooltip now breaks kills down per monster, not just a total." },
+      { "type": "fix", "text": "Fixed \"Copy share link\" failing right after the move to the new domain." },
+      { "type": "improved", "text": "Scrollbars throughout the site are now themed to match the RO aesthetic instead of the browser default." },
+      { "type": "improved", "text": "Links to the site now show a proper title, description, and preview image when shared on Discord or social media." },
+      { "type": "improved", "text": "Tightened up chart spacing and panel styling." }
+    ]
+  }
+]
